@@ -1,0 +1,45 @@
+{
+  "schedule": [
+    {
+      "date": "16-Oct-2022 04:00 AM",
+      "teamOne": "Peshawar",
+      "teamTwo": "lahore",
+      "flagOne": "PZ.png",
+      "flagTwo": "LQ.png",
+      "venue": "Simmonds Stadium, Geelong",
+      "time": ""
+    }
+  ],
+  "venues": [
+    {
+      "country": "Pakistan",
+      "city": "Lahore",
+      "stadium": "Gaddafi  Cricket Stadium",
+      "image": "assets/GS.jpg"
+    }
+  ],
+  "teams": [
+    {
+      "fullName": "Peshawar",
+      "shortName": "PZ",
+      "captain": "Babar Azam",
+      "flag": "assets/flags/PZ.png",
+      "captainImage": "assets/captains/babar.jpeg"
+    }
+  ],
+  "history": [
+    {
+      "winner": "Peshawar",
+      "runnerUp": "Lahore",
+      "host": "UAE",
+      "winnerFlag": "PZ.png",
+      "runnerUpFlag": "LQ.png",
+      "winnerCaptain": "assets/history/babar.png",
+      "runnerUpCaptain": "assets/history/babar.png",
+      "winnerScore": "157/5 (20 overs)",
+      "runnerUpScore": "152/10 (19.4 overs)",
+      "year": "2007"
+    }
+
+  ]
+} 
