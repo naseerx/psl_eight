@@ -1,8 +1,7 @@
 name: psl_eight
 description: A new Flutter project.
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -12,6 +11,11 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  get:
+  provider:
+  intl:
+  fluttertoast:
+  flutter_screenutil:
 
 dev_dependencies:
   flutter_test:
@@ -24,4 +28,10 @@ flutter:
 
   assets:
     - assets/
+    - assets/captains/
+    - assets/flags/
+    - assets/squads/
+    - assets/venues/
+
+
 
