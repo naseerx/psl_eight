@@ -16,6 +16,12 @@
       "city": "Lahore",
       "stadium": "Gaddafi  Cricket Stadium",
       "image": "assets/venues/GS.jpg"
+    },
+    {
+      "country": "Pakistan",
+      "city": "Rawalpindi",
+      "stadium": "Pindi Cricket Stadium",
+      "image": "assets/venues/PS.jpg"
     }
   ],
   "teams": [
