@@ -5,7 +5,7 @@ import '../models/team.dart';
 
 
 class TeamWidget extends StatelessWidget {
-  final Team team;
+  final TeamsModel team;
   const TeamWidget({Key? key, required this.team}) : super(key: key);
 
   @override

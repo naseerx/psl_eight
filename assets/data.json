@@ -4,8 +4,8 @@
       "date": "16-Oct-2022 04:00 AM",
       "teamOne": "Peshawar",
       "teamTwo": "lahore",
-      "flagOne": "PZ.png",
-      "flagTwo": "LQ.png",
+      "flagOne": "assets/flags/PZ.png",
+      "flagTwo": "assets/flags/LQ.png",
       "venue": "Simmonds Stadium, Geelong",
       "time": ""
     }
@@ -15,16 +15,25 @@
       "country": "Pakistan",
       "city": "Lahore",
       "stadium": "Gaddafi  Cricket Stadium",
-      "image": "assets/GS.jpg"
+      "image": "assets/venues/GS.jpg"
     }
   ],
   "teams": [
     {
-      "fullName": "Peshawar",
+      "fullName": "Peshawar Zalmi",
       "shortName": "PZ",
       "captain": "Babar Azam",
       "flag": "assets/flags/PZ.png",
-      "captainImage": "assets/captains/babar.jpeg"
+      "captainImage": "assets/captains/babar.jpeg",
+      "squad": "assets/squads/PZ.jpeg"
+    },
+    {
+      "fullName": "Multan Sultans",
+      "shortName": "MS",
+      "captain": "Muhammad Rizwan",
+      "flag": "assets/flags/MS.png",
+      "captainImage": "assets/captains/babar.jpeg",
+      "squad": "assets/squads/MS.jpeg"
     }
   ],
   "history": [
@@ -32,14 +41,13 @@
       "winner": "Peshawar",
       "runnerUp": "Lahore",
       "host": "UAE",
-      "winnerFlag": "PZ.png",
-      "runnerUpFlag": "LQ.png",
-      "winnerCaptain": "assets/history/babar.png",
-      "runnerUpCaptain": "assets/history/babar.png",
+      "winnerFlag": "assets/flags/PZ.png",
+      "runnerUpFlag": "assets/flags/LQ.png",
+      "winnerCaptain": "assets/captains/babar.jpeg",
+      "runnerUpCaptain": "assets/captains/babar.jpeg",
       "winnerScore": "157/5 (20 overs)",
       "runnerUpScore": "152/10 (19.4 overs)",
       "year": "2007"
     }
-
   ]
 } 
