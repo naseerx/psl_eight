@@ -19,6 +19,12 @@
     },
     {
       "country": "Pakistan",
+      "city": "Multan",
+      "stadium": "Multan Cricket Stadium",
+      "image": "assets/venues/MS.jpg"
+    },
+    {
+      "country": "Pakistan",
       "city": "Rawalpindi",
       "stadium": "Pindi Cricket Stadium",
       "image": "assets/venues/PS.jpg"
