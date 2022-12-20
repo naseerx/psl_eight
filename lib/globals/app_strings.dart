@@ -19,12 +19,6 @@ class AppStrings extends ChangeNotifier {
   static const String somethingWentWrong = "something went wrong";
   static const String allFieldsAreRequired = "all fields are required";
   static const String passwordDoesNotMatch = "confirm password does not match";
-  static const String initialingPaymentProcess =
-      "Initiating Payment Process ...";
-  static const String subAdminAddedSuccessfully =
-      "sub admin added successfully";
-  static const String passwordMustBe6Characters =
-      "password must be at least 6 characters";
 
   static const List<String> items = [
     "New Request",
