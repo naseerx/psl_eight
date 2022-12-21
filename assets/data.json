@@ -36,30 +36,74 @@
       "shortName": "PZ",
       "captain": "Babar Azam",
       "flag": "assets/flags/PZ.png",
-      "captainImage": "assets/captains/babar.jpeg",
+      "captainImage": "assets/captains/BA.png",
       "squad": "assets/squads/PZ.jpeg"
+    },
+    {
+      "fullName": "Lahore Qalanders",
+      "shortName": "LQ",
+      "captain": "Shaheen Shah Afridi",
+      "flag": "assets/flags/LQ.png",
+      "captainImage": "assets/captains/SSA.png",
+      "squad": "assets/squads/LQ.jpeg"
     },
     {
       "fullName": "Multan Sultans",
       "shortName": "MS",
-      "captain": "Muhammad Rizwan",
+      "captain": "Muhammad rizwan",
       "flag": "assets/flags/MS.png",
-      "captainImage": "assets/captains/babar.jpeg",
+      "captainImage": "assets/captains/MR.png",
       "squad": "assets/squads/MS.jpeg"
+    },
+    {
+      "fullName": "Karachi Kings",
+      "shortName": "KK",
+      "captain": "Imad Wasim",
+      "flag": "assets/flags/KK.png",
+      "captainImage": "assets/captains/IW.png",
+      "squad": "assets/squads/KK.jpeg"
+    },
+    {
+      "fullName": "Islamabad united",
+      "shortName": "IU",
+      "captain": "Shahdab Khan",
+      "flag": "assets/flags/IU.png",
+      "captainImage": "assets/captains/SK.png",
+      "squad": "assets/squads/IU.jpeg"
+    },
+    {
+      "fullName": "Quetta Gladiators",
+      "shortName": "QG",
+      "captain": "Sarfaraz Ahmad",
+      "flag": "assets/flags/QG.png",
+      "captainImage": "assets/captains/SA.png",
+      "squad": "assets/squads/QG.jpeg"
     }
   ],
   "history": [
     {
-      "winner": "Peshawar",
-      "runnerUp": "Lahore",
+      "winner": "Islamabad United",
+      "runnerUp": "Quetta Gladiator",
       "host": "UAE",
-      "winnerFlag": "assets/flags/PZ.png",
-      "runnerUpFlag": "assets/flags/LQ.png",
-      "winnerCaptain": "assets/captains/babar.jpeg",
-      "runnerUpCaptain": "assets/captains/babar.jpeg",
-      "winnerScore": "157/5 (20 overs)",
-      "runnerUpScore": "152/10 (19.4 overs)",
-      "year": "2007"
+      "winnerFlag": "assets/flags/IU.png",
+      "runnerUpFlag": "assets/flags/QG.png",
+      "winnerCaptain": "assets/captains/SK.png",
+      "runnerUpCaptain": "assets/captains/SA.png",
+      "winnerScore": "175/4 (18.4 overs)",
+      "runnerUpScore": "174/7 (20 overs)",
+      "year": "2016"
+    },
+    {
+      "winner": "Islamabad United",
+      "runnerUp": "Quetta Gladiator",
+      "host": "UAE",
+      "winnerFlag": "assets/flags/IU.png",
+      "runnerUpFlag": "assets/flags/QG.png",
+      "winnerCaptain": "assets/captains/SK.png",
+      "runnerUpCaptain": "assets/captains/SA.png",
+      "winnerScore": "175/4 (18.4 overs)",
+      "runnerUpScore": "174/7 (20 overs)",
+      "year": "2016"
     }
   ]
 } 
