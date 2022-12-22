@@ -16,6 +16,7 @@ dependencies:
   intl:
   fluttertoast:
   flutter_screenutil:
+  http:
 
 dev_dependencies:
   flutter_test:

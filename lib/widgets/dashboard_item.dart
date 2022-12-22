@@ -26,7 +26,7 @@ class HomeItem extends StatelessWidget {
         width: size.width * 0.4,
         height: size.height * 0.23,
         decoration: BoxDecoration(
-          border: Border.all(color: AppColors.primaryColor, width: 3),
+          border: Border.all(color: AppColors.secondary , width: 3),
           borderRadius: const BorderRadius.only(
               bottomLeft: Radius.circular(20),
               bottomRight: Radius.circular(25),
@@ -39,14 +39,14 @@ class HomeItem extends StatelessWidget {
             Icon(
               icon,
               size: 90,
-              color: AppColors.gGreenColor,
+              color: AppColors.secondary,
             ),
             Text(
               title,
               style: const TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
-                color: AppColors.gGreenColor,
+                color: AppColors.secondary,
               ),
             ),
           ],

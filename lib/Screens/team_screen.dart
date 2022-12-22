@@ -43,9 +43,9 @@ class _TeamScreenState extends State<TeamScreen> {
                       child: Container(
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(15),
-                            gradient: const LinearGradient(colors: [
+                            gradient:  LinearGradient(colors: [
                               AppColors.gGreenColor,
-                              AppColors.orange800
+                              AppColors.secondary
                             ])),
                         child: Column(
                           children: [

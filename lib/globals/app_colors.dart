@@ -7,6 +7,9 @@ class AppColors {
   static const Color primaryColor = Color(0xff0fa859);
   static const Color white = Color(0xFFFFFFFF);
   static const Color black = Color(0xFF000000);
+  // static const  Color secondary =  Color(0xFFBA68C8);
+  // static const Color secondary = Color(0xffe8750a);
+
   static const Color transparent = Color(0x00000000);
 
   // Grey
@@ -40,14 +43,13 @@ class AppColors {
 
   // Teal
   static const Color teal100 = Color(0xFFE7F4F0);
-  static const Color teal400 = Color(0xff38a685);
-  static const Color gGreenColor = Color(0xff0f8766);
-  static const Color teal900 = Color(0xff1a5c47);
+  static const Color secondary = Color(0xff38a685);
+  static const Color df = Color(0xff0f8766);
+  static const Color gGreenColor = Color(0xff1a5c47);
   static const Color teal40065 = Color(0xff6538a685);
   static const Color teal4009e = Color(0xff9e38a685);
 
   // Orange
-  static const Color orange800 = Color(0xffe8750a);
   static const Color yellow701 = Color(0xFFF7BA34);
 
 
@@ -55,6 +57,6 @@ class AppColors {
   static const Color red300 = Color(0xffef7d6e);
 
 
-  static  Color? lightPurpleColor = Colors.purple[300];
+
 
 }

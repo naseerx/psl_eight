@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:provider/provider.dart';
+import 'package:psl_eight/Screens/home_screen.dart';
 import 'package:psl_eight/globals/app_strings.dart';
 import 'package:psl_eight/providers/provider_class.dart';
-
-import 'Screens/home_screen.dart';
 
 void main() {
   runApp(
@@ -24,7 +23,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_)=> ProviderClass()),
+        ChangeNotifierProvider(create: (_) => ProviderClass()),
       ],
       child: GetMaterialApp(
         title: AppStrings.appTitle,

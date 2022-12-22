@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:psl_eight/globals/app_assets.dart';
 import 'package:psl_eight/globals/app_colors.dart';
 import 'package:psl_eight/globals/app_strings.dart';
 
@@ -30,7 +31,7 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
             decoration: const BoxDecoration(
                 image: DecorationImage(
               opacity: 0.4,
-              image: AssetImage('assets/bj.jpg'),
+              image: AssetImage(AppAssets.bachground),
               fit: BoxFit.fill,
             )),
             padding: const EdgeInsets.all(10),
@@ -49,9 +50,9 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
                           child: Container(
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(15),
-                                gradient: const LinearGradient(colors: [
+                                gradient:   LinearGradient(colors: [
                                   AppColors.gGreenColor,
-                                  AppColors.orange800
+                                  AppColors.whiteA700
                                 ])),
                             child: Column(
                               children: [

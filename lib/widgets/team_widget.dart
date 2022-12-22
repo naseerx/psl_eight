@@ -16,10 +16,10 @@ class TeamWidget extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 10),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
-        gradient:  const LinearGradient(
+        gradient:   LinearGradient(
           colors: [
             AppColors.gGreenColor,
-            AppColors.orange800
+            AppColors.black
           ]
         )
       ),

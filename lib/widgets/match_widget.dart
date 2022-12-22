@@ -22,7 +22,7 @@ class MatchWidget extends StatelessWidget {
                 child: Container(
                   padding: const EdgeInsets.all(5.0),
                   decoration:  BoxDecoration(
-                      color: AppColors.lightPurpleColor,
+                      color: AppColors.secondary,
                       borderRadius:
                           const BorderRadius.only(topLeft: Radius.circular(20))),
                   child: Column(
