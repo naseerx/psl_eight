@@ -42,9 +42,8 @@ class AppColors {
   static const Color whiteA70087 = Color(0xff87ffffff);
 
   // Teal
-  static const Color teal100 = Color(0xFFE7F4F0);
   static const Color secondary = Color(0xff38a685);
-  static const Color df = Color(0xff0f8766);
+  static const Color teal100 = Color(0xff9af1d7);
   static const Color gGreenColor = Color(0xff1a5c47);
   static const Color teal40065 = Color(0xff6538a685);
   static const Color teal4009e = Color(0xff9e38a685);

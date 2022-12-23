@@ -2,12 +2,30 @@
   "schedule": [
     {
       "date": "16-Oct-2022 04:00 AM",
-      "teamOne": "Peshawar",
-      "teamTwo": "lahore",
+      "teamOne": "Peshawar Zalmi",
+      "teamTwo": "lahore Qalandars",
       "flagOne": "assets/flags/PZ.png",
       "flagTwo": "assets/flags/LQ.png",
-      "venue": "Simmonds Stadium, Geelong",
-      "time": ""
+      "venue": "National Stadium Karachi",
+      "number": "1"
+    },
+    {
+      "date": "16-Oct-2022 04:00 AM",
+      "teamOne": "Islamabad United",
+      "teamTwo": "Multan Sultans",
+      "flagOne": "assets/flags/IU.png",
+      "flagTwo": "assets/flags/MS.png",
+      "venue": "National Stadium Karachi",
+      "number": "2"
+    },
+    {
+      "date": "16-Oct-2022 04:00 AM",
+      "teamOne": "Quetta Gladiator",
+      "teamTwo": "Karachi Kings",
+      "flagOne": "assets/flags/QG.png",
+      "flagTwo": "assets/flags/KK.png",
+      "venue": "National Stadium Karachi",
+      "number": "3"
     }
   ],
   "venues": [

@@ -6,7 +6,7 @@ class MatchModel {
   late String flagTwo;
   late String group;
   late String venue;
-  late String time;
+  late String number;
 
   MatchModel({
     required this.date,
@@ -15,7 +15,7 @@ class MatchModel {
     required this.flagOne,
     required this.flagTwo,
     required this.venue,
-    required this.time,
+    required this.number,
   });
 
   // Json to Dart Object
@@ -28,7 +28,7 @@ class MatchModel {
       flagOne: map['flagOne'],
       flagTwo: map['flagTwo'],
       venue: map['venue'],
-      time: map['time'],
+      number: map['number'],
     );
   }
 }

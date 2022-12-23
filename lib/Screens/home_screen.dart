@@ -33,11 +33,12 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
         body: SingleChildScrollView(
           child: Container(
             decoration: const BoxDecoration(
-                image: DecorationImage(
-              opacity: 0.2,
-              image: AssetImage(AppAssets.bachground),
-              fit: BoxFit.fill,
-            )),
+              image: DecorationImage(
+                opacity: 0.2,
+                image: AssetImage(AppAssets.bachground),
+                fit: BoxFit.fill,
+              ),
+            ),
             padding: const EdgeInsets.all(20),
             child: Column(
               children: [

@@ -20,6 +20,8 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
         appBar: AppBar(
           centerTitle: true,
           toolbarHeight: 80,
+          elevation: 5,
+          shadowColor: Colors.teal,
           backgroundColor: AppColors.primaryColor,
           title: Text(AppStrings.schedule.toUpperCase()),
           shape: const RoundedRectangleBorder(
@@ -30,7 +32,7 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
         body: Container(
             decoration: const BoxDecoration(
                 image: DecorationImage(
-              opacity: 0.4,
+              opacity: 0.1,
               image: AssetImage(AppAssets.bachground),
               fit: BoxFit.fill,
             )),
@@ -45,61 +47,79 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
                       itemCount: matches.length,
                       itemBuilder: (context, index) {
                         var match = matches[index];
-                        return Padding(
-                          padding: const EdgeInsets.all(8.0),
+                        return Card(
+                          margin: const EdgeInsets.only(bottom: 15),
+                          shadowColor: Colors.teal,
+                          elevation: 9,
+                          semanticContainer: true,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(15),
+                          ),
                           child: Container(
                             decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(15),
-                                gradient:   LinearGradient(colors: [
-                                  AppColors.gGreenColor,
-                                  AppColors.whiteA700
-                                ])),
-                            child: Column(
-                              children: [
-                                Padding(
-                                  padding: const EdgeInsets.all(4),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              borderRadius: BorderRadius.circular(15),
+                            ),
+                            child: Padding(
+                              padding: const EdgeInsets.all(18.0),
+                              child: Column(
+                                children: [
+                                  Text(match.number),
+                                  Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceAround,
                                     children: [
                                       ClipRRect(
-                                          borderRadius: BorderRadius.circular(10),
+                                          borderRadius:
+                                              BorderRadius.circular(10),
                                           child: Image.asset(
                                             match.flagOne,
-                                            width: 120,
-                                            height: 140,
+                                            width: 110,
+                                            height: 110,
+                                            fit: BoxFit.cover,
                                           )),
-                                      Column(
-                                        children: [
-                                          Text(
-                                            match.teamOne,
-                                            style: const TextStyle(
-                                                color: Colors.white,
-                                                fontSize: 20,
-                                                fontWeight: FontWeight.bold),
-                                          ),
-                                          const SizedBox(
-                                            height: 10,
-                                          ),
-                                          Text(
-                                            match.teamTwo,
-                                            style: const TextStyle(
-                                                color: Colors.white,
-                                                fontStyle: FontStyle.italic),
-                                          ),
-                                        ],
+                                      const Text(
+                                        'VS',
+                                        style: TextStyle(
+                                            color: Colors.black,
+                                            fontSize: 20,
+                                            fontWeight: FontWeight.bold),
                                       ),
                                       ClipRRect(
-                                          borderRadius: BorderRadius.circular(10),
+                                          borderRadius:
+                                              BorderRadius.circular(10),
                                           child: Image.asset(
                                             match.flagTwo,
-                                            width: 120,
-                                            height: 160,
+                                            width: 110,
+                                            height: 110,
                                             fit: BoxFit.cover,
                                           )),
                                     ],
                                   ),
-                                ),
-                              ],
+                                  Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text(
+                                        match.teamOne,
+                                        style: const TextStyle(
+                                            color: Colors.black,
+                                            fontSize: 20,
+                                            fontWeight: FontWeight.w600),
+                                      ),
+                                      Text(
+                                        match.teamTwo,
+                                        style: const TextStyle(
+                                            color: Colors.black,
+                                            fontSize: 20,
+                                            fontWeight: FontWeight.w600),
+                                      ),
+                                    ],
+                                  ),
+                                  Text(match.date),
+                                  const SizedBox(height: 10,),
+                                  Text(match.venue),
+                                ],
+                              ),
                             ),
                           ),
                         );
