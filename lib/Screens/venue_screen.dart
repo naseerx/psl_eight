@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:psl_eight/globals/app_assets.dart';
-import 'package:psl_eight/globals/app_colors.dart';
-import 'package:psl_eight/globals/app_strings.dart';
+import 'package:psl_eight/globals/app_globals.dart';
 
 import '../models/venue.dart';
-import '../providers/provider_class.dart';
+import '../provider/provider_class.dart';
 
 class VenueScreen extends StatelessWidget {
   const VenueScreen({Key? key}) : super(key: key);

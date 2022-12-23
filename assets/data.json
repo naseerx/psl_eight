@@ -43,6 +43,12 @@
     },
     {
       "country": "Pakistan",
+      "city": "Karachi",
+      "stadium": "National Stadium Karachi",
+      "image": "assets/venues/KS.jpg"
+    },
+    {
+      "country": "Pakistan",
       "city": "Rawalpindi",
       "stadium": "Pindi Cricket Stadium",
       "image": "assets/venues/PS.jpg"
@@ -105,23 +111,69 @@
       "host": "UAE",
       "winnerFlag": "assets/flags/IU.png",
       "runnerUpFlag": "assets/flags/QG.png",
-      "winnerCaptain": "assets/captains/SK.png",
-      "runnerUpCaptain": "assets/captains/SA.png",
       "winnerScore": "175/4 (18.4 overs)",
       "runnerUpScore": "174/7 (20 overs)",
       "year": "2016"
     },
     {
-      "winner": "Islamabad United",
+      "winner": "Peshawar Zalmi",
       "runnerUp": "Quetta Gladiator",
-      "host": "UAE",
-      "winnerFlag": "assets/flags/IU.png",
+      "host": "UAE  and Pakistan",
+      "winnerFlag": "assets/flags/PZ.png",
       "runnerUpFlag": "assets/flags/QG.png",
-      "winnerCaptain": "assets/captains/SK.png",
-      "runnerUpCaptain": "assets/captains/SA.png",
-      "winnerScore": "175/4 (18.4 overs)",
-      "runnerUpScore": "174/7 (20 overs)",
-      "year": "2016"
+      "winnerScore": "148/6 (20 overs)",
+      "runnerUpScore": "90/10 (16.3 overs)",
+      "year": "2017"
+    },
+    {
+      "winner": "Islamabad United",
+      "runnerUp": "Peshawar Zalmi",
+      "host": "UAE  and Pakistan",
+      "winnerFlag": "assets/flags/IU.png",
+      "runnerUpFlag": "assets/flags/PZ.png",
+      "winnerScore": "154/7 (16.5 overs)",
+      "runnerUpScore": "148/9 (20 overs)",
+      "year": "2018"
+    },
+    {
+      "winner": "Quetta Gladiators",
+      "runnerUp": "Peshawar Zalmi",
+      "host": "UAE  and Pakistan",
+      "winnerFlag": "assets/flags/QG.png",
+      "runnerUpFlag": "assets/flags/PZ.png",
+      "winnerScore": "139/2 (17.5 overs)",
+      "runnerUpScore": "138/8 (20 overs)",
+      "year": "2019"
+    },
+    {
+      "winner": "Karachi Kings",
+      "runnerUp": "Lahore Qalandars",
+      "host": "Pakistan",
+      "winnerFlag": "assets/flags/KK.png",
+      "runnerUpFlag": "assets/flags/LQ.png",
+      "winnerScore": "135/5 (18.4 overs)",
+      "runnerUpScore": "134/7 (20 overs)",
+      "year": "2020"
+    },
+    {
+      "winner": "Multan Sultans",
+      "runnerUp": "Peshawar Zalmi",
+      "host": "Pakistan",
+      "winnerFlag": "assets/flags/MS.png",
+      "runnerUpFlag": "assets/flags/PZ.png",
+      "winnerScore": "206/5 (20 overs)",
+      "runnerUpScore": "159/9 (20 overs)",
+      "year": "2021"
+    },
+    {
+      "winner": "Lahore Qalandars",
+      "runnerUp": "Multan Sultans",
+      "host": "Pakistan",
+      "winnerFlag": "assets/flags/LQ.png",
+      "runnerUpFlag": "assets/flags/MS.png",
+      "winnerScore": "180/5 (20 overs)",
+      "runnerUpScore": "138/10 (19.3 overs)",
+      "year": "2022"
     }
   ]
 } 

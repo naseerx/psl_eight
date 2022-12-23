@@ -1,17 +1,14 @@
 import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
-import 'package:psl_eight/globals/app_assets.dart';
-import 'package:psl_eight/globals/app_strings.dart';
 import 'package:psl_eight/models/history.dart';
 import 'package:psl_eight/models/match.dart';
 
+import '../globals/app_globals.dart';
 import '../models/team.dart';
 import '../models/venue.dart';
 
-class ProviderClass extends ChangeNotifier{
-
-
+class ProviderClass {
   static Future<List<TeamsModel>> getAllTeams(BuildContext context) async {
     var teams = <TeamsModel>[];
     var assetBundle = DefaultAssetBundle.of(context);
@@ -75,5 +72,4 @@ class ProviderClass extends ChangeNotifier{
 
     return historyList;
   }
-
 }

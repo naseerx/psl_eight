@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:psl_eight/globals/app_assets.dart';
-import 'package:psl_eight/globals/app_colors.dart';
-import 'package:psl_eight/globals/app_strings.dart';
+import 'package:psl_eight/globals/app_globals.dart';
 
 import '../models/match.dart';
-import '../providers/provider_class.dart';
+import '../provider/provider_class.dart';
 
 class ScheduleScreen extends StatefulWidget {
   const ScheduleScreen({Key? key}) : super(key: key);
@@ -14,6 +12,8 @@ class ScheduleScreen extends StatefulWidget {
 }
 
 class _ScheduleScreenState extends State<ScheduleScreen> {
+  List dates = [];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,7 +21,7 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
           centerTitle: true,
           toolbarHeight: 80,
           elevation: 5,
-          shadowColor: Colors.teal,
+          shadowColor: AppColors.red,
           backgroundColor: AppColors.primaryColor,
           title: Text(AppStrings.schedule.toUpperCase()),
           shape: const RoundedRectangleBorder(
@@ -42,14 +42,13 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
               builder: (BuildContext context, AsyncSnapshot snapshot) {
                 if (snapshot.hasData) {
                   List<MatchModel> matches = snapshot.data;
-
                   return ListView.builder(
                       itemCount: matches.length,
                       itemBuilder: (context, index) {
                         var match = matches[index];
                         return Card(
                           margin: const EdgeInsets.only(bottom: 15),
-                          shadowColor: Colors.teal,
+                          shadowColor: AppColors.purple,
                           elevation: 9,
                           semanticContainer: true,
                           shape: RoundedRectangleBorder(
@@ -63,7 +62,14 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
                               padding: const EdgeInsets.all(18.0),
                               child: Column(
                                 children: [
-                                  Text(match.number),
+                                  CircleAvatar(
+                                    child: Text(
+                                      match.number,
+                                      style: const TextStyle(
+                                          fontSize: 22,
+                                          fontWeight: FontWeight.bold),
+                                    ),
+                                  ),
                                   Row(
                                     mainAxisAlignment:
                                         MainAxisAlignment.spaceAround,
@@ -95,6 +101,9 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
                                           )),
                                     ],
                                   ),
+                                  const SizedBox(
+                                    height: 10,
+                                  ),
                                   Row(
                                     mainAxisAlignment:
                                         MainAxisAlignment.spaceBetween,
@@ -115,9 +124,17 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
                                       ),
                                     ],
                                   ),
+                                  const SizedBox(
+                                    height: 10,
+                                  ),
                                   Text(match.date),
-                                  const SizedBox(height: 10,),
-                                  Text(match.venue),
+                                  const SizedBox(
+                                    height: 10,
+                                  ),
+                                  Text(
+                                    match.venue,
+                                    style: const TextStyle(fontSize: 18),
+                                  ),
                                 ],
                               ),
                             ),

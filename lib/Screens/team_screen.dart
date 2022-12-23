@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
-import 'package:psl_eight/globals/app_strings.dart';
-import 'package:psl_eight/providers/provider_class.dart';
-
-import '../globals/app_colors.dart';
+import '../globals/app_globals.dart';
 import '../models/team.dart';
+import '../provider/provider_class.dart';
 
 class TeamScreen extends StatefulWidget {
   const TeamScreen({Key? key}) : super(key: key);
