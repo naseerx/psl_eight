@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: AppStrings.appTitle,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        dividerColor: AppColors.black,
       ),
       home: const MyHomeScreen(),
       debugShowCheckedModeBanner: false,

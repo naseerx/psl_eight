@@ -17,12 +17,17 @@ dependencies:
   fluttertoast:
   flutter_screenutil:
   http:
+  flutter_native_splash:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^1.0.0
+flutter_native_splash:
+  background_image: "assets/logo.jpg"
+  android: true
+  ios: true
 
 flutter:
   uses-material-design: true
