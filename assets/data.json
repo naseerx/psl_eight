@@ -29,6 +29,15 @@
     },
     {
       "date": "16-Oct-2022 04:00 AM",
+      "teamOne": "Peshawar Zalmi",
+      "teamTwo": "lahore Qalandars",
+      "flagOne": "assets/flags/PZ.png",
+      "flagTwo": "assets/flags/LQ.png",
+      "venue": "National Stadium Karachi",
+      "number": "1"
+    },
+    {
+      "date": "16-Oct-2022 04:00 AM",
       "teamOne": "Quetta Gladiator",
       "teamTwo": "Karachi Kings",
       "flagOne": "assets/flags/QG.png",
