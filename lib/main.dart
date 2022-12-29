@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
       title: AppStrings.appTitle,
       theme: ThemeData(
         dividerColor: AppColors.black,
+        hintColor: AppColors.black
       ),
       home: const MyHomeScreen(),
       debugShowCheckedModeBanner: false,
